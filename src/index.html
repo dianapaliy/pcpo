@@ -8,7 +8,7 @@
 <body>
     <header class="header">
         <div class="header__i">
-            <span class="header__logo">PCPO</span>
+            <a class="header__logo" href="#">PCPO</a>
             <form class="header__search">
                 <input class="header__input" type="text" placeholder="Search by Keyword"/>
                 <button type="submit" class="header__btn" value="Search">
@@ -23,14 +23,18 @@
         </div>
     </header>
     <nav class="nav">
-        <ul class="nav__list">
-            <li class="nav__item"><a class="nav__link" href="#">laptop/ultra parts<span class="ic-down"></span></a></li>
-            <li class="nav__item"><a class="nav__link" href="#">desctop PARTS<span class="ic-down"></span></a></li>
-            <li class="nav__item"><a class="nav__link" href="#">tablet PC PARTS<span class="ic-down"></span></a></li>
-            <li class="nav__item"><a class="nav__link" href="#">COMPUTERS<span class="ic-down"></span></a></li>
-            <li class="nav__item nav__item_right"><a class="nav__link" href="#"><span class="ic-cart"></span>CART<span class="ic-down"></span></a></li>
-            <li class="nav__item nav__item_right"><a class="nav__link" href="#"><span class="ic-compare"></span>compare<span class="ic-down"></span></a></li>
-        </ul>
+        <div class="nav__i">
+            <ul class="nav__list nav-menu">
+                <li class="nav-menu__item nav-menu__item nav__item"><a class="nav-menu__link nav-menu__link_first nav__link" href="#">laptop/ultra parts<span class="ic-down"></span></a></li>
+                <li class="nav-menu__item nav__item"><a class="nav-menu__link nav__link" href="#">desctop PARTS<span class="ic-down"></span></a></li>
+                <li class="nav-menu__item nav__item"><a class="nav-menu__link nav__link" href="#">tablet PC PARTS<span class="ic-down"></span></a></li>
+                <li class="nav-menu__item nav__item"><a class="nav-menu__link nav__link" href="#">COMPUTERS<span class="ic-down"></span></a></li>
+            </ul>
+            <ul class="nav__list nav-cart">
+                <li class="nav-cart__item nav__item"><a class="nav-cart__link nav__link" href="#"><span class="ic-cart"></span>CART<span class="ic-down"></span></a></li>
+                <li class="nav-cart__item nav__item"><a class="nav-cart__link nav__link" href="#"><span class="ic-compare"></span>compare<span class="ic-down"></span></a></li>
+            </ul>
+        </div>
     </nav>
     <div class="breadcrumbs">
         <a class="breadcrumbs__item" href="#">Home</a>
@@ -39,61 +43,59 @@
         <span class="ic-arrow-right"></span>
         <p class="breadcrumbs__item">Motherboard (MB)</p>
     </div>
-    <div class="page">
+    <div class="main">
         <div class="sidebar">
-            <p class="sidebar__title">Narrow Your Choices</p>
+            <h2 class="sidebar__title">Narrow Your Choices</h2>
             <ul class="sidebar-first__list">
                 <li class="sidebar-first__item"><a class="sidebar-first__link" href="#">Price</a>
                     <ul class="sidebar-second__list">
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span><a class="sidebar-second__link" href="#">$0.00 -$99.9 <span class="count">(254)</span></a>
+                            <a class="sidebar-second__link" href="#">$0.00 -$99.9 <span class="count">(254)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span><a class="sidebar-second__link" href="#">$0.00 -$99.9 <span class="count">(254)</span></a>
+                            <a class="sidebar-second__link" href="#">$0.00 -$99.9 <span class="count">(254)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span><a class="sidebar-second__link" href="#">$0.00 -$99.9 <span class="count">(254)</span></a>
+                            <a class="sidebar-second__link" href="#">$0.00 -$99.9 <span class="count">(254)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span><a class="sidebar-second__link" href="#">$0.00 -$99.9 <span class="count">(254)</span></a>
-                        </li>
-                        <li class="sidebar-second__item">
-                            <a class="sidebar-second__link sidebar-second__link_more" href="#">3 more</a><span class="ic-down"></span>
+                            <a class="sidebar-second__link" href="#">$0.00 -$99.9 <span class="count">(254)</span></a>
                         </li>
                     </ul>
+                    <span class="sidebar-second__link sidebar-second__link_more" href="#">3 more</span>
                 </li>
                 <li class="sidebar-first__item"><a class="sidebar-first__link" href="#">Compatible CPU Brand</a>
                     <ul class="sidebar-second__list">
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">AMD</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">AMD</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">AMD</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">AMD</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">AMD</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">AMD</a></li>
-                        <li class="sidebar-second__item"><a class="sidebar-second__link sidebar-second__link_more" href="#">10 more</a><span class="ic-down"></span></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">AMD</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">AMD</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">AMD</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">AMD</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">AMD</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">AMD</a></li>
                     </ul>
+                    <span class="sidebar-second__link sidebar-second__link_more" href="#">10 more</span>
                 </li>
                 <li class="sidebar-first__item"><a class="sidebar-first__link" href="#">Brand</a>
                     <ul class="sidebar-second__list">
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">ASRock</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">ASRock</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">ASRock</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">ASRock</a></li>
-                        <li class="sidebar-second__item"><span class="ic-right"></span><a class="sidebar-second__link" href="#">ASRock</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">ASRock</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">ASRock</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">ASRock</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">ASRock</a></li>
+                        <li class="sidebar-second__item"><a class="sidebar-second__link" href="#">ASRock</a></li>
                     </ul>
                 </li>
                 <li class="sidebar-first__item"><a class="sidebar-first__link" href="#">Memory type</a>
                     <ul class="sidebar-second__list">
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">DDR1 SDRAM SO-DIMM <span class="count">(3)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">DDR1 SDRAM SO-DIMM <span class="count">(14)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">DDR1 SDRAM SO-DIMM <span class="count">(11)</span></a>
                         </li>
                     </ul>
@@ -101,19 +103,19 @@
                 <li class="sidebar-first__item"><a class="sidebar-first__link" href="#">Number of Memory Slots</a>
                     <ul class="sidebar-second__list">
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">1 <span class="count">(54)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">2 <span class="count">(54)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">3 <span class="count">(54)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">4 <span class="count">(54)</span></a>
                         </li>
                     </ul>
@@ -121,23 +123,23 @@
                 <li class="sidebar-first__item"><a class="sidebar-first__link" href="#">Socket type</a>
                     <ul class="sidebar-second__list">
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Socket G3 <span class="count">(14)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Socket G3 <span class="count">(14)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Socket G3 <span class="count">(14)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Socket G3 <span class="count">(14)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Socket G3 <span class="count">(14)</span></a>
                         </li>
                     </ul>
@@ -145,23 +147,23 @@
                 <li class="sidebar-first__item"><a class="sidebar-first__link" href="#">Ports</a>
                     <ul class="sidebar-second__list">
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Audio <span class="count">(44)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Audio <span class="count">(44)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Audio <span class="count">(44)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Audio <span class="count">(44)</span></a>
                         </li>
                         <li class="sidebar-second__item">
-                            <span class="ic-right"></span>
+
                             <a class="sidebar-second__link" href="#">Audio <span class="count">(44)</span></a>
                         </li>
                     </ul>
@@ -171,12 +173,14 @@
                 <p class="sidebar-paypal__title">Checkout with PayPal - Faster. Safer. Easier.</p>
                 <p class="sidebar-paypal__descr">PayPal is a service thath enables you to pay, send money,
                     send money,send money</p>
-                <img class="sidebar-paypal__img" src="images/paypal.png" alt=""/>
-                <a class="sidebar-paypal__link" href="#">How PayPal Works</a>
+                <a class="sidebar-paypal__container" href="#">
+                    <img class="sidebar-paypal__img" src="images/paypal.png" alt=""/>
+                    <span class="sidebar-paypal__link">How PayPal Works</span>
+                </a>
             </div>
         </div>
         <div class="content">
-            <p class="content__title">Motherboard (MB)</p>
+            <h1 class="content__title">Motherboard (MB)</h1>
             <div class="content__topbar">
                 <ul class="content-nav">
                     <li class="content-nav__item">
@@ -205,7 +209,7 @@
                 </ul>
                 <div class="content-view">
                     <p class="content-view__number">View as: </p>
-                    <a class="content-view__img"><span class="ic-grid"></span></a>
+                    <a class="content-view__img content-view__img_active"><span class="ic-grid"></span></a>
                     <a class="content-view__img"><span class="ic-list"></span></a>
                 </div>
             </div>
@@ -223,12 +227,14 @@
             <div class="content-products">
                 <ul class="content-products__row">
                     <li class="content-products__item">
-                        <img class="content-products__img" src="images/product.jpg" alt=""/>
-                        <a class="content-products__title" href="#">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</a>
-                        <span class="content-products__price">$30.10</span>
-                        <form class="content-products__form">
-                            <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
-                        </form>
+                        <a class="content-products__link" href="#">
+                            <img class="content-products__img" src="images/product.jpg" alt=""/>
+                            <p class="content-products__title">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</p>
+                            <span class="content-products__price">$30.10</span>
+                            <form class="content-products__form">
+                                <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
+                            </form>
+                        </a>
                     </li>
                     <li class="content-products__item">
                         <a class="content-products__link" href="#">
@@ -241,54 +247,64 @@
                         </a>
                     </li>
                     <li class="content-products__item">
-                        <img class="content-products__img" src="images/product.jpg" alt=""/>
-                        <a class="content-products__title" href="#">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</a>
-                        <span class="content-products__price">$30.10</span>
-                        <form class="content-products__form">
-                            <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
-                        </form>
-                    </li>
-                    <li class="content-products__item">
-                        <img class="content-products__img" src="images/product.jpg" alt=""/>
-                        <a class="content-products__title" href="#">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</a>
-                        <span class="content-products__price">$30.10</span>
-                        <form class="content-products__form">
-                            <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
-                        </form>
-                    </li>
-                </ul>
-                <ul class="content-products__row">
-                    <li class="content-products__item">
-                        <img class="content-products__img" src="images/product.jpg" alt=""/>
-                        <a class="content-products__title" href="#">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</a>
-                        <span class="content-products__price">$30.10</span>
-                        <form class="content-products__form">
-                            <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
-                        </form>
-                    </li>
-                    <li class="content-products__item">
-                        <img class="content-products__img" src="images/product.jpg" alt=""/>
-                        <a class="content-products__title" href="#">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</a>
-                        <span class="content-products__price">$30.10</span>
-                        <form class="content-products__form">
-                            <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
-                        </form>
-                    </li>
-                    <li class="content-products__item">
+                        <a class="content-products__link" href="#">
                             <img class="content-products__img" src="images/product.jpg" alt=""/>
-                            <a class="content-products__title" href="#">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</a>
+                            <p class="content-products__title">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</p>
                             <span class="content-products__price">$30.10</span>
                             <form class="content-products__form">
                                 <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
                             </form>
+                        </a>
                     </li>
                     <li class="content-products__item">
-                        <img class="content-products__img" src="images/product.jpg" alt=""/>
-                        <a class="content-products__title" href="#">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</a>
-                        <span class="content-products__price">$30.10</span>
-                        <form class="content-products__form">
-                            <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
-                        </form>
+                        <a class="content-products__link" href="#">
+                            <img class="content-products__img" src="images/product.jpg" alt=""/>
+                            <p class="content-products__title">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</p>
+                            <span class="content-products__price">$30.10</span>
+                            <form class="content-products__form">
+                                <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
+                            </form>
+                        </a>
+                    </li>
+                    <li class="content-products__item">
+                        <a class="content-products__link" href="#">
+                            <img class="content-products__img" src="images/product.jpg" alt=""/>
+                            <p class="content-products__title">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</p>
+                            <span class="content-products__price">$30.10</span>
+                            <form class="content-products__form">
+                                <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
+                            </form>
+                        </a>
+                    </li>
+                    <li class="content-products__item">
+                        <a class="content-products__link" href="#">
+                            <img class="content-products__img" src="images/product.jpg" alt=""/>
+                            <p class="content-products__title">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</p>
+                            <span class="content-products__price">$30.10</span>
+                            <form class="content-products__form">
+                                <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
+                            </form>
+                        </a>
+                    </li>
+                    <li class="content-products__item">
+                        <a class="content-products__link" href="#">
+                            <img class="content-products__img" src="images/product.jpg" alt=""/>
+                            <p class="content-products__title">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</p>
+                            <span class="content-products__price">$30.10</span>
+                            <form class="content-products__form">
+                                <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
+                            </form>
+                        </a>
+                    </li>
+                    <li class="content-products__item">
+                        <a class="content-products__link" href="#">
+                            <img class="content-products__img" src="images/product.jpg" alt=""/>
+                            <p class="content-products__title">Asus X501 Intel Board 60- NN0MB1102-A06 Broken Connection AS IS No Refund</p>
+                            <span class="content-products__price">$30.10</span>
+                            <form class="content-products__form">
+                                <button type="submit" class="content-products__btn"><span class="ic-cart"></span>Add to Cart</button>
+                            </form>
+                        </a>
                     </li>
                 </ul>
             </div>
