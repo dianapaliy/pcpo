@@ -11,10 +11,7 @@
 ._hidden {
     display: none;
 }
-.transition (@transition) {
-    -webkit-transition: @transition;
-    -moz-transition: @transition;
-    -ms-transition: @transition;
-    -o-transition: @transition;
-    transition: @transition;
+.gradient(@to, @color1, @color2) {
+    background: linear-gradient(to @to, @color1 0%, @color2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='@color1', endColorstr='@color2');
 }
