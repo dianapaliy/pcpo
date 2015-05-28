@@ -14,7 +14,7 @@ gulp.task('styles', function() {
     var browsers = [
         'last 2 versions',
     ];
-    return gulp.src('src/less/*')
+    return gulp.src('src/less/all.less')
         .pipe(plumber())
         .pipe(less({ noCache: true }))
         .pipe($.postcss([
@@ -22,7 +22,7 @@ gulp.task('styles', function() {
                 browsers: browsers
             })
         ]))
-        .pipe(gulp.dest('src/css'))
+        .pipe(gulp.dest('src/css/'))
         .pipe(notify({ message: 'CSS task complete' }));
 });
 
