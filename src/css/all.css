@@ -386,8 +386,8 @@
 .content-nav,
 .content-nav__item,
 .content-view,
-.content-pagin,
-.content-pagin__list,
+.pagin,
+.pagin__list,
 .content-products__row,
 .footer__i,
 .footer__list,
@@ -419,10 +419,10 @@
 .content-nav__item:after,
 .content-view:before,
 .content-view:after,
-.content-pagin:before,
-.content-pagin:after,
-.content-pagin__list:before,
-.content-pagin__list:after,
+.pagin:before,
+.pagin:after,
+.pagin__list:before,
+.pagin__list:after,
 .content-products__row:before,
 .content-products__row:after,
 .footer__i:before,
@@ -448,8 +448,8 @@
 .content-nav:after,
 .content-nav__item:after,
 .content-view:after,
-.content-pagin:after,
-.content-pagin__list:after,
+.pagin:after,
+.pagin__list:after,
 .content-products__row:after,
 .footer__i:after,
 .footer__list:after,
@@ -915,37 +915,37 @@ body {
 .content-view__img_active {
   background: #e5e5e5;
 }
-.content-pagin {
+.pagin {
   padding: 14px 0 21px;
 }
-.content-pagin__page {
+.pagin__page {
   font-size: 0.875em;
   letter-spacing: -0.8px;
   padding-top: 4px;
   float: left;
   padding-right: 1%;
 }
-.content-pagin__list {
+.pagin__list {
   float: left;
   margin-top: 6px;
 }
-.content-pagin__link {
+.pagin__link {
   color: #000;
   padding: 6px 11.5px;
   background: #f5f5f5;
 }
-.content-pagin__link:hover {
+.pagin__link:hover {
   background: #ddd;
 }
-.content-pagin__item {
+.pagin__item {
   float: left;
   margin-right: 1px;
   font-size: 0.75em;
 }
-.content-pagin__item:hover {
+.pagin__item:hover {
   background: #e5e5e5;
 }
-.content-pagin__item:last-child a {
+.pagin__item:last-child a {
   padding: 5.5px 9px 8.5px;
 }
 .content-products__row {
