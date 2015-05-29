@@ -607,6 +607,7 @@ body {
 }
 .nav-menu {
   float: left;
+  margin-left: -22px;
 }
 .nav-menu__item {
   border-left: 1px solid #fff;
@@ -620,11 +621,8 @@ body {
   border-left: none;
 }
 .nav-menu__link {
-  padding: 0 22px;
+  padding: 0 32px 0 22px;
   line-height: 44px;
-}
-.nav-menu__link_first {
-  padding-left: 2px;
 }
 .nav-cart {
   float: right;
@@ -722,7 +720,7 @@ body {
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
 }
-.sidebar-first__list {
+.filter-first__list {
   background: #f8f8f8;
   border-left: 1px solid #e2e3e4;
   border-right: 1px solid #e2e3e4;
@@ -732,72 +730,72 @@ body {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
 }
-.sidebar-first__item {
+.filter-first__item {
   font-weight: bold;
   padding-bottom: 12px;
 }
-.sidebar-first__item:first-child {
+.filter-first__item:first-child {
   padding-bottom: 13px;
 }
-.sidebar-first__item:nth-child(3) {
+.filter-first__item:nth-child(3) {
   padding-bottom: 9px;
 }
-.sidebar-first__item:nth-child(5) {
+.filter-first__item:nth-child(5) {
   padding-bottom: 9px;
 }
-.sidebar-first__link {
+.filter-first__link {
   color: #000;
 }
-.sidebar-second__list {
+.filter-second__list {
   padding-top: 6px;
 }
-.sidebar-second__item {
+.filter-second__item {
   position: relative;
   padding-left: 6.5%;
   padding-bottom: 1px;
   font-weight: normal;
 }
-.sidebar-second__item .ic-right {
+.filter-second__item .ic-right {
   font-size: 1.25em;
   position: absolute;
   left: -3%;
 }
-.sidebar-second__item .ic-down {
+.filter-second__item .ic-down {
   font-size: 1em;
 }
-.sidebar-second__item .count {
+.filter-second__item .count {
   color: #ccc;
 }
-.sidebar-second__link {
+.filter-second__link {
   color: #000;
 }
-.sidebar-second__link:before {
+.filter-second__link:before {
   content: "\e263";
   position: absolute;
   left: 0;
   font-family: 'ThemeIcons';
 }
-.sidebar-second__link_more {
+.filter-second__link_more {
   border-bottom: 1px dashed #000;
   font-weight: normal;
   margin: 0 0 0 7%;
   cursor: pointer;
   position: relative;
 }
-.sidebar-second__link_more:before {
+.filter-second__link_more:before {
   content: "";
 }
-.sidebar-second__link_more:after {
+.filter-second__link_more:after {
   content: "\e261";
   position: absolute;
   right: -35%;
   font-family: 'ThemeIcons';
 }
-.sidebar-second__link_more:hover {
+.filter-second__link_more:hover {
   color: #4485d0;
   border-bottom: 1px dashed #4485d0;
 }
-.sidebar-second__link:hover {
+.filter-second__link:hover {
   color: #4485d0;
 }
 .sidebar-paypal {
